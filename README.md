@@ -14,10 +14,14 @@ The SOC lab consists of the following systems connected within the same isolated
 
 ### Attacker Machine
 - **Operating System:** Kali Linux
+- <img width="1156" height="534" alt="WhatsApp Image 2026-09-23 at 15 58 54" src="https://github.com/user-attachments/assets/a8a460e3-decf-4a6a-9a27-5460b9c67107" />
+
 - **Purpose:** Simulate attacker activities (port scans, brute force, malicious PowerShell, etc.) to generate security events within the lab.
 
 ### Device 1 – Endpoint System
 - **Operating System:** Windows 11
+- <img width="1156" height="534" alt="image" src="https://github.com/user-attachments/assets/aa1ebbc8-3aac-43cb-9499-2d8fc0d7ec22" />
+
 - **Role:** Endpoint machine sending logs to the SIEM
 - **Configuration:**
   - [Wazuh Agent / Splunk Universal Forwarder] installed
@@ -26,6 +30,8 @@ The SOC lab consists of the following systems connected within the same isolated
 
 ### Device 2 – Server System
 - **Operating System:** Windows Server
+- <img width="1156" height="534" alt="image" src="https://github.com/user-attachments/assets/c2093531-aa26-4d2a-926c-8e7c8627c9b5" />
+
 - **Role:** Server machine sending logs to the SIEM
 - **Configuration:**
   - [Wazuh Agent / Splunk Universal Forwarder] installed
@@ -33,6 +39,13 @@ The SOC lab consists of the following systems connected within the same isolated
 
 ### Device 3 – SIEM Server
 - **Operating System:** Ubuntu Server
+- <img width="1920" height="1080" alt="Screenshot (491)" src="https://github.com/user-attachments/assets/efe78a39-2294-4a14-8d81-fd0ada430fd0" />
+- <img width="1920" height="1080" alt="Screenshot (252)" src="https://github.com/user-attachments/assets/8110cc1b-ede5-4c06-bfcc-7c80fea50ddc" />
+SPL Quires Practiced
+<img width="1920" height="1080" alt="Screenshot (225)" src="https://github.com/user-attachments/assets/b76e4007-bdfc-4aa0-8dc8-8aab58ae0078" />
+
+
+
 - **Role:** Centralized logging and monitoring system
 - **Configuration:**
   - [Wazuh Manager / Splunk Enterprise / Elastic Stack] installed
